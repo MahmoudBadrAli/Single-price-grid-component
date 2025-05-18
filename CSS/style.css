@@ -36,6 +36,12 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 640px) {
+  body {
+    overflow: auto;
+  }
+}
+
 .holder {
   background-color: white;
   border-radius: 15px;
